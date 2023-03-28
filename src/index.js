@@ -6,7 +6,7 @@ import TodoList from './modules/todolist.js';
 const list = document.querySelector('.lists-of-tasks');
 const addTodo = document.querySelector('.form');
 const descript = document.querySelector('#title');
-const remoTasks = document.querySelector('.remouveAll');
+const remoTasks = document.querySelector('.removeAll');
 
 const todoList = new TodoList();
 
