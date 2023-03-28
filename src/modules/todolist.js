@@ -38,7 +38,7 @@ class TodoList {
         type="text" id="${task.id}" class="text-area" name="task" value="${
   task.description
 }" />
-      <button class="delete">Delete</button>
+      <button class="delete">:</button>
     </div>`;
       list.innerHTML += li;
     });
