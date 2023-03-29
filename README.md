@@ -36,6 +36,7 @@ It uses the DOM API to interact with the HTML elements, and it uses local storag
 
 ### Key Features <a name="key-features"></a>
 
+- **[list-structure]**
 - **[Adding_a_new_item]**
 - **[Removing_a_selected_item]**
 
