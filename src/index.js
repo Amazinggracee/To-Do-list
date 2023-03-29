@@ -9,11 +9,6 @@ const descript = document.querySelector('#title');
 const remoTasks = document.querySelector('.removeAll');
 
 const todoList = new TodoList();
-// const resetButton = document.querySelector('#reset-button');
-// resetButton.addEventListener('click', () => {
-//   todoList.reload();
-// });
-
 remoTasks.addEventListener('click', () => {
   todoList.cleanCompleted();
   todoList.setStorage();
