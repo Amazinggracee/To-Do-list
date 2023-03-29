@@ -69,6 +69,12 @@ body {
 .header i {
   color: var(--font-color2);
   padding-top: 13px;
+  border: none;
+  background: transparent;
+}
+
+.fa-refresh:hover {
+  transform: rotateY(150deg);
 }
 
 .form {

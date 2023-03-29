@@ -39,6 +39,9 @@ It uses the DOM API to interact with the HTML elements, and it uses local storag
 - **[list-structure]**
 - **[Adding_a_new_item]**
 - **[Removing_a_selected_item]**
+- **[Marking_a_selected_item_as_complete]**
+- **[Removing_all_items_marked_as_complete_at_once]**
+- **[Reordering_a_selected_item]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,9 +121,7 @@ To get the output of our project make sure you have google Chrome, Mozila or any
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Marking_a_selected_item_as_complete]**
-- [ ] **[Removing_all_items_marked_as_complete_at_once]**
-- [ ]**[Reordering_a_selected_item]**
+
 - [ ] **[Drag_and_drop_sot]**
 - [ ] **[More_animations]**
 - [ ] **[More_styles]**

@@ -9,7 +9,6 @@ const descript = document.querySelector('#title');
 const remoTasks = document.querySelector('.removeAll');
 
 const todoList = new TodoList();
-
 remoTasks.addEventListener('click', () => {
   todoList.cleanCompleted();
   todoList.setStorage();
