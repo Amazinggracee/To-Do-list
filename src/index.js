@@ -35,6 +35,11 @@ document.addEventListener('click', (e) => {
   }
 });
 
+const refreshPage = document.getElementById('refreshBtn');
+refreshPage.addEventListener('click', () => {
+  window.location.reload();
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   todoList.getStorage();
   todoList.displayToDo(list);
